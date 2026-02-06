@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CinePicks | Cinema Club IIT Roorkee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="fade-in">
+    <h1>CinePicks 🎬</h1>
+    <p>Stories of passion, discipline, love & ambition — just like IITR life</p>
+  </header>
+
+  <!-- FILTER -->
+  <section class="filter fade-in">
+    <button onclick="filterMovies('all')">All</button>
+    <button onclick="filterMovies('Hindi')">Hindi</button>
+    <button onclick="filterMovies('English')">English</button>
+  </section>
+
+  <!-- MOVIES -->
+  <section class="movies">
+
+    <!-- 12th Fail -->
+    <div class="card fade-up" data-lang="Hindi">
+      <img src="https://image.tmdb.org/t/p/original/ukCnSgMvdiJekondpIQMliWWyfx.jpg" alt="12th Fail">
+      <div class="content">
+        <h3>12th Fail</h3>
+        <span>Hindi • Drama • 2023</span>
+        <p>An inspiring journey of perseverance, failure, and self-belief.</p>
+      </div>
+    </div>
+
+    <!-- Shiddat -->
+    <div class="card fade-up" data-lang="Hindi">
+      <img src="https://cdn.wallpapersafari.com/65/76/i2jTnV.jpg" alt="Shiddat">
+      <div class="content">
+        <h3>Shiddat</h3>
+        <span>Hindi • Romance • 2021</span>
+        <p>An intense love story driven by passion and emotional extremes.</p>
+      </div>
+    </div>
+
+    <!-- MS Dhoni -->
+    <div class="card fade-up" data-lang="Hindi">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/33/M.S._Dhoni_-_The_Untold_Story_poster.jpg" alt="MS Dhoni">
+      <div class="content">
+        <h3>MS Dhoni: The Untold Story</h3>
+        <span>Hindi • Biopic • 2016</span>
+        <p>The journey of discipline, leadership, and becoming a legend.</p>
+      </div>
+    </div>
+
+    <!-- Interstellar -->
+    <div class="card fade-up" data-lang="English">
+      <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg" alt="Interstellar">
+      <div class="content">
+        <h3>Interstellar</h3>
+        <span>English • Sci-Fi • 2014</span>
+        <p>A visually stunning exploration of space, time, and humanity.</p>
+      </div>
+    </div>
+
+    <!-- Whiplash -->
+    <div class="card fade-up" data-lang="English">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg" alt="Whiplash">
+      <div class="content">
+        <h3>Whiplash</h3>
+        <span>English • Drama • 2014</span>
+        <p>A brutal pursuit of excellence between a mentor and a student.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
